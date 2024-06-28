@@ -1,0 +1,99 @@
+
+
+:root {
+    --cor-01: #f9f9f9;
+}
+
+/* Barra de Navegação */
+nav .row {
+    height: 0;
+}
+
+/* Banner */
+header {
+    height: 80vh;
+    background-image: url('../img/banner_desktop.png');
+    background-size: cover;
+    font-weight: 700;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+li {
+    list-style-type: none;
+}
+
+section {
+    margin: auto;
+    height: 100vh;
+}
+
+/* Serviços */
+#icones img {
+    height: 10rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icone {
+    padding: 5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+    /* border: solid 1px red; */
+}
+
+.icone a {
+    text-decoration: none;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.icone span {
+    font-size: 2rem;
+}
+
+/* Produto */
+button {
+    padding: 0.6rem 1rem;
+    background-color: #ed0836;
+    color: #f9f9f9;
+    font-weight: 700;
+    border-radius: 1.5rem;
+    border: none;
+}
+
+.foto img {
+    width: 50vw;
+}
+
+/* Rodapé */
+footer {
+    min-height: 20rem;
+    background-color: #232323;
+}
+
+.nav-item a, h5 {
+    text-decoration: none;
+    color: #cbcbcb;
+}
